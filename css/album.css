@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+.album_body{
+	width:900px;
+	background:rgba(51,51,51,.8);
+	margin:0 auto;
+	border:2px #FFF solid;
+	box-shadow: 1px 10px 20px 10px rgba(51, 51, 51,.8);
+}
+.album_box{
+	width:100%;
+}
+.gallery{
+	list-style: none;
+	margin: 25px 8px;
+	/*width: 642px;*/ /* (200+10+4)x3 */
+    font-size: 0; /* fix inline-block spacing */
+}
+
+.gallery li{
+	display: inline-block;
+	*display: inline;
+   	zoom: 1;
+   	width: 200px; 
+	height: 150px;
+   	margin: 20px 36px 20px 45px;
+    border: 5px solid #fff;
+    -moz-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;        
+}
+
+.gallery:hover li:not(:hover){       
+   	-webkit-filter: blur(2px) grayscale(1);
+    -moz-filter: blur(2px) grayscale(1);
+    -o-filter: blur(2px) grayscale(1);
+    -ms-filter: blur(2px) grayscale(1);
+    filter: blur(2px) grayscale(1);
+    opacity: .7; /* fallback */        
+}
+
+    /* Demo page only */
+#about{
+    color: #999;
+    text-align: center;
+    font: 0.9em Arial, Helvetica;
+}
+
+#about a{
+    color: #777;
+}   

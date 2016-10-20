@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.img_newblog{
+	float:right;
+	width: 25%; 
+	overflow: hidden;
+	margin: 30px 5px 30px 10px;
+}
+.all a{
+	color:#F90;
+	font-size:12px;
+}
+.newblog h3{
+	padding:20px 0 20px 10px;
+}
+.newblog p{
+	padding:0 10px 10px 10px;
+}
+.newblog h3 a:hover{
+	text-decoration:underline;
+}

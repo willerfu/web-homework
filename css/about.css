@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about_h{
+	background:url(../images/5849.png) no-repeat left center;
+	font-size:14px;
+	color: #6C3;
+	line-height: 30px;
+	height: 30px;
+	padding-left: 20px;
+	margin: 20px;
+	border-bottom:#CCC 2px solid;
+}
+.about{
+	width:700px;
+	line-height:20px;
+	margin:5px;
+	background:rgba(255,255,255,.9);
+}
+.about span{
+	display:block;
+	font-size:28px;
+	color:#F90;
+	font-family: cursive;
+	padding: 20px;
+	/*text-shadow:#000 2px 1px 2px;*/
+	font-weight:bold;
+}
+.about ul{
+	padding:20px;
+	line-height:25px;
+}
+

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.talking{
+	width:710px;
+	border-bottom:1px #ccc dashed;
+	height:185px;
+	clear:both;/*清除浮动*/
+}
+.talking a img{
+	float:left;
+	width:65px;
+	height:65px;
+	border:#CCC 2px solid;
+	margin:0 15px;
+	border-radius:2px;
+}
+.content{
+	width:580px;
+	border:#CCC 2px solid;
+	float:left;
+	background:#FFF;
+	padding:2px 6px;
+	margin: 5px 0px 50px 0;
+	box-shadow: 5px 5px 2px 1px #B2C2A3;
+	border-radius:5px;	
+}
+.content p{
+	line-height:22px;
+	color:#747F8C; 
+}
+.changPic{
+	background:url(../images/lct.png) no-repeat left center;
+}

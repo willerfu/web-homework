@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+.time_body{
+	position:relative;
+	width:964px;
+	height:1420px;
+	background:rgba(51,51,51,.8);
+	margin:0 auto;
+	border:2px #FFF solid;
+	box-shadow: 1px 10px 20px 10px rgba(51, 51, 51,.8);
+}
+.t_left{
+	float:left;
+	width:200px;
+}
+.t_left a{
+	display:block;
+	padding:10px 20px;
+}
+.t_left a img{
+	border: 2px solid #FFF;
+	box-shadow: 10px 10px 1px #99CC66;
+}
+.t_right{
+	position:relative;
+	float:right;
+	width:700px;
+	background:url(../images/spine.png) repeat-y 0 0;
+}
+.time_list{
+	position:relative;
+	margin-top:20px;
+	width:690px;
+	border-bottom:1px #ccc dashed;
+	height:300px;
+}
+.icon_arrow{
+	position:absolute;
+	left: 35px;
+	top: 25px;
+	border-color:transparent rgba(215, 242, 178, 0.8) transparent transparent;
+	border-style:dashed solid dashed dashed;
+	border-width:10px 10px 10px 0;
+}
+.time_shuo{
+	float:left;
+	width:250px;
+	background:rgba(215, 242, 178, 0.8);
+	margin: 0px 25px 20px 45px;
+	padding:20px;
+	border-radius:10px;
+}
+.time_blog{
+	float:left;
+	width:250px;
+	background:rgba(123, 191, 237, 0.8);
+	margin:20px;
+	padding:20px;
+	border-radius:10px;
+}
+.date_view{
+	display:none;
+	position: absolute;
+    left: -110px;
+    top: 25px;
+    z-index: 1;
+    color:rgba(51,51,51,.9);
+}
+.time_list:hover .date_view{
+	display:block;
+}
+.time_list::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background: #CAC1C1 none repeat scroll 0% 0%;
+    border: 2px solid #FFF;
+    left: -5px;
+	top: 27px;
+    transition: all 1s ease 0s;
+}
+.time_list::after{
+    content: "";
+    width: 121px;
+    height: 29px;
+    position: absolute;
+    left: -130px;
+    top: 19px;
+    z-index: 0;
+    background:url(../images/tt.png) no-repeat;
+    opacity: 0;
+    transition: all 1s ease 0s;
+}
+.time_list:hover::before { 
+	background: #474645 
+}
+
+.time_list:hover::after { 
+	opacity: 1 
+}

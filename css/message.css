@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+.mes_box{
+	width:900px;
+	border:2px #FFF solid;
+	background:rgba(51,51,51,.8);
+	margin:0 auto;
+	box-shadow: 1px 10px 20px 10px rgba(51, 51, 51,.8);
+}
+.mes_title{
+	margin:auto 15px;
+}
+.mes_title a{
+	display:block;
+	font-size:14px;
+	opacity:0.8;
+	margin:0 10px;
+	width:850px;
+	padding:5px 0;
+	color:rgba(0,153,255,0.6);
+	border-bottom:1px solid rgba(102,102,102,.6)	
+}
+.mes_title a span{
+	height:30px;
+	line-height:30px;
+	margin:10px 0;
+	color:rgba(0,153,255,0.6);
+	padding:9px 0;
+}
+.mes_title a span:hover{
+	border-bottom:4px solid rgba(0,153,255,.9);
+	color:rgba(0,153,255,.9);
+}
+.mes_title h4{
+	font-size:14px;
+	height:40px;
+	line-height:40px;
+	color:#FFF;
+	float:left;
+	margin:0 10px;
+}
+.mes_span{
+	height:30px;
+	line-height:30px;
+	color:rgba(0,153,255,.6);
+}
+.mes_span a:hover{
+	text-decoration:underline;
+	color:rgba(0,153,255,.9);
+}
+.mes_imgbox{
+	margin: 10px 15px;
+}
+.mes_imgbox img{
+	margin: 5px 10px 40px 10px;
+}
+.mes_imgbox h5{
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	margin: 0px 10px;
+	border-bottom:1px solid rgba(102,102,102,.6);	
+}
+.mes_list{
+	margin: 10px 20px;
+	border-bottom:1px solid rgba(102,102,102,.6);
+	height:480px;
+}
+.mes_content_l,.mes_content_r{
+	float:left;
+	margin:0 10px 0 0;
+}
+.mes_content_l a {
+	display:block;
+	float:left;
+}
+.mes_content_l a img{
+	width:65px;
+	height:65px;
+	border-radius:6px;
+}
+.mes_content_r{
+	float:left;
+	width:750px;
+	margin-left: 18px;
+}
+.mes_r_top{
+	height: 30px;
+    margin-bottom: 10px;
+}
+.mes_r_top h4{
+	font-size:14px;
+	margin:5px -5px;
+	text-align:center;
+}
+.mes_r_top h4 a{
+	height:30px;
+	line-height:30px;
+	display:block;
+	color:rgba(0,153,255,.6);
+}
+.mes_r_top h4 a:hover{
+	text-decoration:underline;
+	color:rgba(0,153,255,.9);
+}
+.mes_r_top a{
+	display:block;
+	width:50px;
+	margin:-5px -5px;
+	
+}
+.mes_r_top a img{
+	padding:10px;
+}
+.mes_r_top span{
+	margin:10px;
+	color:rgba(255,255,255,.8);
+}
+.mes_r_top h4,.mes_r_top a,.mes_r_top span{
+	float:left;
+}
+
+.mes_r_middle .message{
+	padding:0 0 50px 30px;
+}
+.message p{
+	color:rgba(255,255,255,.8);
+}
+.message_dateline{
+	height:25px;
+	border-bottom:1px solid rgba(102,102,102,.6);
+}
+.message_dateline span{
+	color:rgba(255,255,255,.5);
+	margin:0 5px 0 0;
+}
+.message_dateline a{
+	color:rgba(0,153,255,.6);
+}
+.message_dateline a:hover{
+	text-decoration:underline;
+	color:rgba(0,153,255,.9);
+}
+
+/*.message_respond{
+	height:300px;
+}*/
+.re_me{
+	height:80px;
+	margin: 15px 0 0 0;
+}
+.re_he{
+	height:80px;
+	margin: 0 0 -15px 0;
+}
+.me_l{
+	width:65px;
+	height:60px;
+	
+}
+.me_l img{
+	height:45px;
+	border-radius:6px;
+}
+.me_l,.me_r,.me_r ul{
+	float:left;
+}
+.me_r ul li{
+	list-style-type:none;
+	height:30px;
+	line-height:30px;
+}
+.me_r ul li a,.me_r ul li span{
+	margin:0 8px 0 0;
+}
+.sa{
+	color:rgba(255,255,255,.8);
+}
+.sb{
+	color:rgba(255,255,255,.5);
+}
+.me_r ul li a{
+	color:rgba(0,153,255,.6);
+}
+.me_r ul li a:hover{
+	color:rgba(0,153,255,.9);
+	text-decoration:underline;
+}
+
+.aa{
+	color:rgba(0,153,255,.6);
+	display:none;
+}
+.me_r:hover .aa{
+	display:inline-block;
+	text-decoration:underline;
+	color:rgba(0,153,255,.9);
+}
+.me_input .input_text{
+	border-radius:2px;
+	height:20px;
+	margin:0 5px 0 0;
+}
